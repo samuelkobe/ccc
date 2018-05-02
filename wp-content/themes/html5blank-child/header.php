@@ -41,7 +41,7 @@
 					<!-- /logo -->
 
 					<!-- nav -->
-					<nav class="nav" role="navigation">
+					<nav class="nav header-nav" role="navigation">
 						<div class="nav-inner-wrap container">
 							<?php html5blank_nav(); ?>
 						</div>

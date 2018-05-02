@@ -2,13 +2,13 @@
 			<footer class="footer" role="contentinfo">
 
 				<!-- copyright -->
-				<div class="container copyright">
+				<div class="copyright container">
 					<p class"twelve columns">&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.</p>
 				</div>
 				<!-- /copyright -->
 
 				<nav class="nav footer-nav" role="navigation">
-					<div class="footer-nav-inner-wrap">
+					<div class="nav-inner-wrap container">
 						<?php wp_nav_menu( array( 'theme_location' => 'extra-menu' ) ); ?>
 					</div>
 				</nav>
