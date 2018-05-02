@@ -1,0 +1,25 @@
+/*
+Theme Name: Child of HTML5-Blank
+Description: Child theme of HTML5-Blank to add Advanced Custom Fields and other changes.
+Author: Samuel Alexander Kobe
+Version: 0.1
+Template: html5blank-stable
+*/
+/* -----------------------------------------
+	Table of Contents
+--------------------------------------------
+
+.. 01. General
+.. 02. Header
+.. 03. Modules
+.. 04. Footer
+.. 05. Media Queries
+*/
+
+@import 'css/inc/variables';
+// @import 'css/inc/mixins/mixins';
+@import 'css/inc/base';
+@import 'css/inc/header';
+@import 'css/inc/modules';
+@import 'css/inc/footer';
+@import 'css/inc/media';

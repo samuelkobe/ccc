@@ -1,0 +1,25 @@
+/*
+BASE STYLES
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ecece1;
+  background: #222;
+}
+
+a {color: #ffffff; text-decoration: none;}
+.container a:link {color: #ffffff; text-decoration: none;}
+.container a:visited {text-decoration: none;}
+.container a:hover {color: #ffffff; text-decoration: none; border-bottom: 2px solid #ffffff}
+.container a:active {text-decoration: none;}
+
+#page-title {
+  font-family: 'CLoister Opti Black';
+  font-size: 4.8em;
+}

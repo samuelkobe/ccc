@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php /* Template Name: Home Page Template */ get_header(); ?>
 
 	<main role="main">
 		<!-- section -->
@@ -11,9 +11,20 @@
 
         <section class="container">
 			    <h1 id="page-title"><?php the_title(); ?></h1>
+          <div id="introduction" class="row">
+            <div class="twelve columns">
+              <div class="phone-content"><?php the_field('phone_content');?></div>
+            </div>
+          </div>
 
     			<div class="row">
-    				<div class="twelve columns">
+            <div class="six columns">
+              <div class="phone-title"><h3><?php the_field('phone_title');?><h3></div>
+              <div class="phone-number"><?php the_field('phone_number');?></div>
+              <div class="fax-number"><?php the_field('fax_number');?></div>
+            </div>
+    				<div class="six columns">
+              <div class="form-title"><h3><?php the_field('contact_form_title');?><h3></div>
     					<?php the_content(); ?>
     				</div>
     			</div>
@@ -27,7 +38,6 @@
             </div>
           </div>
         </section>
-
 
 				<br class="clear">
 
