@@ -1,0 +1,14 @@
+/*
+MIXIN STYLES
+*/
+
+@mixin transition($target, $duration, $transition-type) {
+  -webkit-transition: $target $duration $transition-type;
+     -moz-transition: $target $duration $transition-type;
+      -ms-transition: $target $duration $transition-type;
+          transition: $target $duration $transition-type;
+}
+
+@mixin filter-blur($value) {
+  filter: blur($value);
+}

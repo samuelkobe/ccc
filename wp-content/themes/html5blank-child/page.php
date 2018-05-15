@@ -10,7 +10,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
         <section class="container">
-			    <h1 id="page-title"><?php the_title(); ?></h1>
+			    <!-- <h1 id="page-title"><?php the_title(); ?></h1> -->
 
     			<div class="row">
     				<div class="twelve columns">

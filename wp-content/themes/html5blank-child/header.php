@@ -28,24 +28,22 @@
 		<!-- wrapper -->
 		<div class="wrapper">
 
+			<div class="banner">
+			</div>
+
 			<!-- header -->
 			<header class="header clear" role="banner">
-
-					<!-- logo -->
-					<div class="logo">
-						<!-- <a href="<?php echo home_url(); ?>"> Remove comment for link activated banner image -->
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="Colonial Coffee Company Logo" class="logo-img">
-						<!-- </a> -->
+				<div class="title container">
+					<div class="row">
+						<h1 id="page-title" class="twelve columns"><?php the_title(); ?></h1>
 					</div>
-					<!-- /logo -->
-
+				</div>
 					<!-- nav -->
-					<nav class="nav header-nav" role="navigation">
-						<div class="nav-inner-wrap container">
+					<div class="nav-wrap">
+						<nav class="nav header-nav container" role="navigation">
 							<?php html5blank_nav(); ?>
-						</div>
-					</nav>
+						</nav>
+					</div>
 					<!-- /nav -->
 
 			</header>
