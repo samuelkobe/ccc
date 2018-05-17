@@ -7,7 +7,7 @@
 				</nav>
 				<!-- copyright -->
 				<div class="copyright container">
-					<p class"twelve columns">&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.</p>
+					<p class"twelve columns">&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?> | <a href="mailto:support@colonialcoffeecompany.com?subject=Colonial Coffee Company Web Support" target="_blank">Support</a></p>
 				</div>
 				<!-- /copyright -->
 

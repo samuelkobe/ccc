@@ -139,7 +139,8 @@ MODULES STYLES
     align-items: center;
     /* align vertical */ }
     #introduction div.twelve.columns div.logo-wrap .logo-img {
-      height: 15vh;
+      padding: 2.5vh;
+      min-height: 10vh;
       max-width: 150px; }
   #introduction div.twelve.columns div.phone-content {
     font-size: 1.2em;
@@ -166,7 +167,7 @@ Maps Styles
 WPforms Styles
 */
 .wpforms-container input, select {
-  font-family: "Raleway";
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
@@ -175,7 +176,7 @@ WPforms Styles
   background-color: #efefe5 !important; }
 
 .wpforms-container label.wpforms-field-label {
-  font-family: "Raleway";
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400 !important; }
 
 .wpforms-container .wpforms-error {
@@ -210,7 +211,7 @@ WPforms Styles
   color: #222222; }
 
 .wpforms-container .wpforms-submit-container button {
-  font-family: "Raleway";
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8rem !important;
   font-weight: 400;
   min-width: 200px;
